@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(246, 158, 118);
+  padding: 5% 4%;
+}
+
+header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 10vw;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 15px 40px 15px 40px;
+}
+
+main {
+  height: auto;
+  background: white;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: 10px 5px 5px lightsalmon;
+  border-radius: 5px;
+}
+
+h1 {
+  color: rgb(246, 158, 118);
+  font-size: 40px;
+}
+
+.commandes {
+  display: flex;
+  flex-direction: column;
+}
+.boutique {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.infos {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 30px;
+}
+.boutique:first-child {
+  background-color: rgb(249, 230, 202);
+}
+.boutique:nth-child(2) {
+  background-color: rgb(165, 203, 183);
+}
+.boutique:last-child {
+  background-color: rgb(252, 216, 194);
+}
+.statut {
+  background: rgb(253, 245, 234);
+  width: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.date {
+  font-size: 20px;
+}
+.colis {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  margin-top: 20px;
+  background: white;
+  color:rgb(246, 158, 118);
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 0px 30px;
+
+}
+footer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1290px) {
+  .logo {
+    width: 40vw;
+  }
+
+  .statut {
+    font-size: 20px;
+    padding: 33px 60px;
+    width: 100%;
+  }
+  .boutique {
+    flex-wrap: wrap;
+  }
+  .user {
+    font-size: 20px;
+  }
+  .infos {
+    margin: auto;
+  }
+  .link {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+  .colis {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
